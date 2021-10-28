@@ -1,0 +1,70 @@
+<html>
+<body onload="IniciarPagina()">
+    <div>
+        <h2>Listado de personal</h2>
+
+        <br>
+        <br>
+        <a href="~/Empleado/Editar">Agregar empleado</a>
+        <br>
+        <table id="tblEmpleados" style="width: 100%;">
+            <thead>
+                <tr>
+                    <th>Id Empleado</th>
+                    <th>Nombre</th>
+                    <th>Puesto</th>
+                    <th>Telefono</th>
+                    <th>Correo electrónico</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
+                    <th>Consultar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </tbody>
+        </table>
+      
+    </div>
+    <script>
+          function IniciarPagina(){
+              var requestOptions = {
+                  metod: 'GET',
+                  redirect: 'follow'
+              };
+
+            fetch("https://localhost:5002/Empleados", requestOptions)
+            .then(response => response.text())
+            .then(result => { 
+                
+                const tabla = document.getElementById("tblEmpleados"); 
+                console.log(tabla);
+
+                const tabla1 = document.getElementById("tblEmpeados1");
+                console.log(tabla1);
+            })
+            .catch(error => {
+                
+                 alert("Error al realizar consulta. Contacte al administrador, o intente más tarde");
+                 console.log(error);
+            });
+          }
+    </script>
+  </body>
+</html>

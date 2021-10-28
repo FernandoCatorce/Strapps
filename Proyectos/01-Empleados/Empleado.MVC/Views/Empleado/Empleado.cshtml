@@ -1,0 +1,156 @@
+<h1>Alta de personal</h1>
+<br><br>
+<fieldset>
+    <legend>Información Básica:</legend>
+
+    <table style="width: 100%;">
+        <tr>
+            <td>Nombre:</td>
+            <td><input type="text" id="txtNombre" name="txtNombre"></td>
+            <td>Apellido Paterno:</td>
+            <td><input type="text" id="txtApellidoPaterno" name="txtApellidoPaterno"></td>
+            <td>Apellido Materno:</td>
+            <td><input type="text" id="txtApellidoMaterno" name="txtApellidoMaterno"></td>
+        </tr>
+    </table>
+    <br><br>
+</fieldset>
+<br>
+<br>
+<fieldset>
+    <legend>Datos Personales:</legend>
+
+    <table style="width: 100%;">
+        <tr>
+            <td>Sexo:</td>
+            <td>
+                <select name="Sexo" id="slcSexo">
+                    <option>Seleccionar</option>
+                    <option>Femenino</option>
+                    <option>Masculino</option>
+                </select>
+            </td>
+            <td>CURP:</td>
+            <td><input type="text" id="txtCURP" name="txtCURP"></td>
+            <td>Fecha de nacimiento:</td>
+            <td><input type="date" id="FechaNacimiento" name="txtFechaNacimiento"></td>
+        </tr>
+        <tr>
+            <td>Nacionalidad:</td>
+            <td>
+                <select name="Nacionalidad" id="txtNacionalidad">
+                    <option>Seleccionar</option>
+                    <option>Mexicana</option>
+                    <option>Extrangera</option>
+            <td>RFC</td>
+            <td><input type="text" id="txtRFC" name="txtRFC"></td>
+            <td>NSS:</td>
+            <td><input type="text" id="txtNSS" name="txtNSS"></td>
+            </select>
+            </td>
+        </tr>
+    </table>
+ <br>
+ <br>
+<table style="width: 100%;">
+</fieldset>
+<br>
+<br>
+<fieldset>
+    <legend>Domicilio:</legend>
+    <tr>
+        <td>Calle:</td>
+        <td><input type="Calle" name="txtCalle" id="txtCalle"></td>
+        <td>Numero Interior:</td>
+        <td><input type="text" name="txtNumeroInterior" id="txtNumeroInterior"></td>
+        <td>Numero Exterior</td>
+        <td><input type="text" name="txtNumeroExterior" id="txtNumeroExterior"></td>
+    </tr>
+    <br>
+    <br>
+    <tr>
+        <td>Colonia:</td>
+        <td><input type="text" name="txtColonia" id="txtColonia"></td>
+        <td>Municipio:</td>
+        <td><input type="text" name="txtMunicipio" id="txtMunicipio"></td>
+        <td>Estado:</td>
+        <td>
+            <select id="slcEstado">
+                <option>Seleccionar</option>
+                <option>Aguascalientes</option>
+                <option>Baja California</option>
+                <option>Baja California Sur</option>
+                <option>Durango</option>
+                <option>Campeche</option>
+                <option>Chiapas</option>
+                <option>Chihuahua</option>
+                <option>Ciudad de México</option>
+                <option>Coahuila</option>
+                <option>Colima</option>
+                <option>Estado de México</option>
+                <option>Guanajuato</option>
+                <option>Guerrero</option>
+                <option>Hidalgo</option>
+                <option>Jalisco</option>
+                <option>Michoacán</option>
+                <option>Morelo</option>
+                <option>Nayarit</option>
+                <option>Nuevo León</option>
+                <option>Oaxaca</option>
+                <option>Puebla</option>
+                <option>Querétaro</option>
+                <option>Quintana Roo</option>
+                <option>San Luis Potosí</option>
+                <option>Sinaloa</option>
+                <option>Sonora</option>
+                <option>Tabasco</option>
+                <option>Tamaulipas</option>
+                <option> Tlaxcala</option>
+                <option>Veracruz</option>
+                <option>Yucatán</option>
+                <option>Zacatecas</option>
+            </select>
+        </td>
+    </tr>
+</fieldset>
+</table>
+<br>
+<br>
+<table style="width: 100%;">
+<fieldset>
+    <legend>Datos laborales</legend>
+    
+    <tr>
+        <td>Puesto:</td>
+        <td>
+            <select id="slcPuestoo">
+                <option>Seleccionar</option>
+                <option>Dirección General</option>
+                <option>Dirección de Operaciones</option>
+                <option>Desarrollo Movil</option>
+                <option>Desarrollo BackEnd</option>
+                <option>Desarrollo FullStack</option>
+            </select>
+        </td>
+        <td>Fecha de ingreso</td>
+        <td><input type="date" name="txtFechaIngreso" id="txtFechaIngreso"></td>
+        <td>Salario Diario</td>
+        <td><input type="text" name="txtSalario" id="txtSalario"></td>
+          <td>Puesto:</td>
+        <td>
+            <select id="slcHorario">
+                <option>Seleccionar</option>
+                <option>L-V: 8-5</option>
+                <option>L-v: 8-3, S: 8-12</option>
+                <option>L-V: 3-10</option>
+            </select>
+        </td>
+        <td>Total de faltas</td>
+        <td><input type="text" name="txtTotalFaltas" id="txtTotalFaltas"></td>
+    </tr>
+</table>
+</fieldset>
+
+<button id="btnGuardar">Guardar</button>
+<button id="btnCerrar" type="button" onclick= "window.location.href='/Empleado/listado'">Cerrar</button>
+  

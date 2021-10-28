@@ -1,0 +1,161 @@
+<h1><b>Alta de Estudiante</b></h1>
+<br><br>
+
+<body>
+    <fieldset>
+        <legend><b>Información Básica</b></legend>
+
+
+        <table style="width: 100%;"></table>
+
+        <tr>
+            <td>Nombre(s):</td>
+            <td><input type="text" id="txtNombre" name="txtNombre"></td>
+            <td>Apellido Paterno:</td>
+            <td><input type="text" id="txtApellidoPaterno" name="txtApellidoPaterno"></td>
+            <td>Apellido Materno:</td>
+            <td><input type="text" id="txtApellidoMaterno" name="txtApellidoMaterno"></td>
+        </tr>
+    </fieldset>
+    </table>
+    <br><br>
+    <fieldset>
+        <legend><b>Datos Personales</b></legend>
+        <table style="width: 100%;">
+            <tr>
+                <td>Sexo:</td>
+                <td>
+                    <select name="Sexo" id="slcSexo">
+                        <option>Seleccionar</option>
+                        <option>Femenino</option>
+                        <option>Masculino</option>
+                    </select>
+                </td>
+
+                <td>CURP:</td>
+                <td><input type="text" id="txtCURP" name="txtCURP"></td>
+
+                <td>Fecha de nacimiento:</td>
+                <td><input type="date" id="fechaNacimiento" name="fechaNacimiento"></td>
+    </fieldset>
+    </table>
+    <br>
+    <table>
+        <fieldset>
+            <td>NSS:</td>
+            <td>
+                <select name="Nacionalidad" id="Nacionalidad">
+                    <option>Sellecionar</option>
+                    <option>Mexicana</option>
+                    <option>Extranjera</option>
+                </select>
+            </td>
+
+            <td>Nacionalidad</td>
+            <td><input type="text" id="txtNacionalidad" name="txtNacionalidad"></td>
+            </tr>
+    </table>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <legend><b>Domicilio</b></legend>
+        <table style="width: 100%;">
+            <tr>
+                <td>Calle:</td>
+                <td><input type="text" name="txtCalle" id="txtCalle"></td>
+
+                <td>Numero Exterior:</td>
+                <td><input type="text" name="txtnumeroExterior" id="numeroExterior"></td>
+
+                <td>Numero Interior:</td>
+                <td><input type="text" name="txtnumetoInterior" id="txtnumeroInterior"></td>
+
+                <td>Colonia:</td>
+                <td><input type="text" name="txtcolonia" id="txtcolonia"></td>
+        </table>
+    </fieldset>
+    <br>
+    <fieldset>
+        <table>
+            <td>Código Postal:</td>
+            <td><input type="decimal" name="decCP" id="decCP"></td>
+            <td>Colonia:</td>
+            <td><input type="text" name="txtColonia" id="txtColonia"></td>
+            <td>Municipio:</td>
+            <td><input type="text" name="txtMunic" id="txtMunic"></td>
+            <td>Estado:</td>
+            <td>
+                <select id="slcEstado">
+                    <option>Seleccionar</option>
+                    <option>Aguascalientes</option>
+                    <option>Baja California</option>
+                    <option>Baja California Sur</option>
+                    <option>Durango</option>
+                    <option>Campeche</option>
+                    <option>Chiapas</option>
+                    <option>Chihuahua</option>
+                    <option>Ciudad de México</option>
+                    <option>Coahuila</option>
+                    <option>Colima</option>
+                    <option>Estado de México</option>
+                    <option>Guanajuato</option>
+                    <option>Guerrero</option>
+                    <option>Hidalgo</option>
+                    <option>Jalisco</option>
+                    <option>Michoacán</option>
+                    <option>Morelo</option>
+                    <option>Nayarit</option>
+                    <option>Nuevo León</option>
+                    <option>Oaxaca</option>
+                    <option>Puebla</option>
+                    <option>Querétaro</option>
+                    <option>Quintana Roo</option>
+                    <option>San Luis Potosí</option>
+                    <option>Sinaloa</option>
+                    <option>Sonora</option>
+                    <option>Tabasco</option>
+                    <option>Tamaulipas</option>
+                    <option> Tlaxcala</option>
+                    <option>Veracruz</option>
+                    <option>Yucatán</option>
+                    <option>Zacatecas</option>
+                </select>
+            </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend><b>Datos escolares</b></legend>
+        <table>
+            <td>Carrera:</td>
+            <td>
+                <select name="slcCarrera">
+                    <option>Seleccionar</option>
+                </select>
+            </td>
+            <td>Fecha de ingreso:</td>
+            <td><input type="date" id="fechaIngreso" name="fechaIngreso"></td>
+            <td>Horario:</td>
+            <td>
+                <select name="slcHorario" id="slcHorario">
+                    <option value="slc">Seleccionar</option>
+                    <option value="horario">Matutino</option>
+                    <option value="horario">Vespertino</option>
+                    <option value="horario">Mixto</option>
+                </select>
+            </td>
+            <td>materias</td>
+            <td></td>
+
+            <td>Total de faltas:</td>
+            <td><input type="text" name="txtFaltas" id="txtFaltas"></td>
+
+
+
+        </table>
+    </fieldset>
+    <button>Guardar</button> <button id="btnCerrar" type="button"
+        onclick="window.location.href='/Estudiante/listado'">Cerrar</button>
+</body>
