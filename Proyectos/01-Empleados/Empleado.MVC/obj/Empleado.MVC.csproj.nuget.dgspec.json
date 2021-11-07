@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fcm31\\OneDrive\\Documentos\\Strapp\\Proyectos\\01-Empleados\\Empleado.MVC\\Empleado.MVC.csproj": {}
+    "C:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\01-Empleados\\Empleado.MVC\\Empleado.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fcm31\\OneDrive\\Documentos\\Strapp\\Proyectos\\01-Empleados\\Empleado.MVC\\Empleado.MVC.csproj": {
+    "C:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\01-Empleados\\Empleado.MVC\\Empleado.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fcm31\\OneDrive\\Documentos\\Strapp\\Proyectos\\01-Empleados\\Empleado.MVC\\Empleado.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\01-Empleados\\Empleado.MVC\\Empleado.MVC.csproj",
         "projectName": "Empleado.MVC",
-        "projectPath": "C:\\Users\\fcm31\\OneDrive\\Documentos\\Strapp\\Proyectos\\01-Empleados\\Empleado.MVC\\Empleado.MVC.csproj",
+        "projectPath": "C:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\01-Empleados\\Empleado.MVC\\Empleado.MVC.csproj",
         "packagesPath": "C:\\Users\\fcm31\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fcm31\\OneDrive\\Documentos\\Strapp\\Proyectos\\01-Empleados\\Empleado.MVC\\obj\\",
+        "outputPath": "C:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\01-Empleados\\Empleado.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fcm31\\AppData\\Roaming\\NuGet\\NuGet.Config"
