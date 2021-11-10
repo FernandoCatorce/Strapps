@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\02-Estudiantes\\Alumnos.MVC\\Alumnos.MVC.csproj",
+  "FilePath": "c:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\02-Estudiantes\\Alumno.Webapi\\Alumno.Webapi.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15616,53 +15616,7 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "Alumnos.MVC",
-  "Documents": [
-    {
-      "FilePath": "c:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\02-Estudiantes\\Alumnos.MVC\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\02-Estudiantes\\Alumnos.MVC\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\02-Estudiantes\\Alumnos.MVC\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\02-Estudiantes\\Alumnos.MVC\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\02-Estudiantes\\Alumnos.MVC\\Views\\Alumnos\\lista.cshtml",
-      "TargetPath": "Views\\Alumnos\\lista.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\02-Estudiantes\\Alumnos.MVC\\Views\\Alumnos\\Alumnado.cshtml",
-      "TargetPath": "Views\\Alumnos\\Alumnado.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\02-Estudiantes\\Alumnos.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\02-Estudiantes\\Alumnos.MVC\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\fcm31\\OneDrive\\Documentos\\Strapps\\Proyectos\\02-Estudiantes\\Alumnos.MVC\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    }
-  ],
+  "RootNamespace": "Alumno.Webapi",
+  "Documents": [],
   "SerializationFormat": "0.2"
 }

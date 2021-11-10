@@ -39,4 +39,4 @@ C:\Users\fcm31\OneDrive\Documentos\Strapps\Proyectos\02-Estudiantes\Alumnos.MVC\
 C:\Users\fcm31\OneDrive\Documentos\Strapps\Proyectos\02-Estudiantes\Alumnos.MVC\obj\Debug\net5.0\Alumnos.MVC.genruntimeconfig.cache
 C:\Users\fcm31\OneDrive\Documentos\Strapps\Proyectos\02-Estudiantes\Alumnos.MVC\obj\Debug\net5.0\Alumnos.MVC.csproj.CopyComplete
 C:\Users\fcm31\OneDrive\Documentos\Strapps\Proyectos\02-Estudiantes\Alumnos.MVC\obj\Debug\net5.0\Razor\Views\Alumnos\lista.cshtml.g.cs
-C:\Users\fcm31\OneDrive\Documentos\Strapps\Proyectos\02-Estudiantes\Alumnos.MVC\obj\Debug\net5.0\Razor\Views\Alumnos\Registrar.cshtml.g.cs
+C:\Users\fcm31\OneDrive\Documentos\Strapps\Proyectos\02-Estudiantes\Alumnos.MVC\obj\Debug\net5.0\Razor\Views\Alumnos\Alumnado.cshtml.g.cs

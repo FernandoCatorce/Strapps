@@ -25,8 +25,17 @@ namespace Alumnos.MVC.Controllers
 
         public IActionResult Registrar()
         {
-            return View();
+            return View("Alumnado");
         }
 
+         public IActionResult Editar()
+        {
+            return View("Alumnado");
+        }
+
+          public IActionResult Consultar()
+        {
+            return View("Alumnado");
+        }
     }
 }

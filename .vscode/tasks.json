@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Proyectos/01-Empleados/Empleados.WebApi/Empleados.WebApi.csproj",
+                "${workspaceFolder}/Proyectos/02-Estudiantes/Alumno.Webapi/Alumno.Webapi.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Proyectos/01-Empleados/Empleados.WebApi/Empleados.WebApi.csproj",
+                "${workspaceFolder}/Proyectos/02-Estudiantes/Alumno.Webapi/Alumno.Webapi.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/Proyectos/01-Empleados/Empleados.WebApi/Empleados.WebApi.csproj",
+                "${workspaceFolder}/Proyectos/02-Estudiantes/Alumno.Webapi/Alumno.Webapi.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
