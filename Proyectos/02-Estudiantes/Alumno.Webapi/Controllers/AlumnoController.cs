@@ -54,5 +54,55 @@ namespace Alumno.WebAPI.Controllers
            
             return alumno;
         }
+
+        [HttpPut]
+        public async Task<ActionResult<Models.Alumnos>> Actualizar(Models.Alumnos alumno)
+        {
+            Models.Alumnos alumnoModificar = null;
+            List<Models.Alumnos> listAl = listAlumnos;
+            foreach (Models.Alumnos IdEstudiante in listAlumnos)
+            {
+                if(IdEstudiante.IdEstudiante == alumno.IdEstudiante)
+                {
+                    alumnoModificar = IdEstudiante;
+                    break;
+                }
+            }
+                if (alumnoModificar == null )
+                {
+                    return NotFound();
+                }
+                else 
+                {
+                    alumnoModificar.Nombre = alumno.Nombre;
+                    alumnoModificar.ApellidoPaterno = alumno.ApellidoPaterno;
+                    alumnoModificar.ApellidoMaterno = alumno.ApellidoMaterno;
+                }
+            return alumnoModificar;
+        } 
+    [HttpGet("{IdEstudiante}")]
+    public async Task<ActionResult<Models.Alumnos>> obtenerID(int IdEstudiante)
+    {
+        Models.Alumnos alumnoEcontrado = null;
+        List<Models.Alumnos> lista = listAlumnos;
+
+        foreach (Models.Alumnos iEstudiante in lista )
+        {
+            if (iEstudiante.IdEstudiante == IdEstudiante)
+            {
+                alumnoEcontrado = iEstudiante;
+            }
+        }
+    
+        if(alumnoEcontrado == null)
+        {
+            return NotFound();
+        }
+    
+            else 
+            {
+                return alumnoEcontrado;
+            }
+    }
     }
 }
