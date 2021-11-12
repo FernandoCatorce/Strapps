@@ -11,5 +11,6 @@ namespace Alumno.WebAPI.Models
         public int NSS { get; set; }
         public string Horario { get; set; }
         public int TotalFaltas { get; set; }
+        public bool Activo {get; set;}
     }
 } 

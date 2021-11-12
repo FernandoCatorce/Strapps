@@ -20,7 +20,8 @@ namespace Alumno.WebAPI.Controllers
                 Nombre = "Saul",
                 ApellidoPaterno = "Carretero",
                 ApellidoMaterno = "Carretero",
-                Sexo = 'M'
+                Sexo = 'M',
+                Activo = true
             },
             new Models.Alumnos()
             {
@@ -28,7 +29,8 @@ namespace Alumno.WebAPI.Controllers
                 Nombre = "Mariana",
                 ApellidoPaterno = "Cuevas",
                 ApellidoMaterno = "Cuevas",
-                Sexo = 'F'
+                Sexo = 'F',
+                Activo = true
             }
         };
         private readonly ILogger<AlumnosController> _logger;
@@ -40,7 +42,19 @@ namespace Alumno.WebAPI.Controllers
         [HttpGet]
         public List<Models.Alumnos> Obtener()
         {
-            return listAlumnos;
+            List <Models.Alumnos> listAlumnosActivos = new List<Models.Alumnos>();
+
+            List<Models.Alumnos> list = listAlumnos;
+
+            foreach(var alumno in list)
+            {
+                if (alumno.Activo == true)
+                {
+                    listAlumnosActivos.Add(alumno);
+                }
+            }
+            return listAlumnosActivos;
+        
         }
         [HttpPost]
         public Models.Alumnos Crear(Models.Alumnos alumno)
@@ -104,5 +118,38 @@ namespace Alumno.WebAPI.Controllers
                 return alumnoEcontrado;
             }
     }
+    
+        [HttpDelete("{IdEstudiante}")]
+        public async Task<ActionResult<Models.Alumnos>> Eliminar(int IdEstudiante)
+        {
+            Models.Alumnos alumnoEliminar = null;
+
+            List<Models.Alumnos> list = listAlumnos; 
+            
+            foreach (var alumno in list)
+            {
+                if(alumno.IdEstudiante == IdEstudiante)
+                {
+                    alumnoEliminar = alumno;
+                    break;
+                }
+
+            }
+
+            if (alumnoEliminar == null)
+            {
+                return NotFound();
+            }
+            
+            if (alumnoEliminar != null)
+            {
+                alumnoEliminar.Activo = false;      
+            }
+            
+            return alumnoEliminar;
+
+        }
+    
+    
     }
 }
